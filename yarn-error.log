@@ -1,0 +1,56 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\Pezhman\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-google-signin
+
+PATH: 
+  C:\Users\Pezhman\Downloads\rn-starter\firebase\possenger\node_modules\.bin;C:\Users\Pezhman\Downloads\rn-starter\firebase\node_modules\.bin;C:\Users\Pezhman\Downloads\rn-starter\node_modules\.bin;C:\Users\Pezhman\Downloads\node_modules\.bin;C:\Users\Pezhman\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;D:\Program Files\nodejs;C:\Program Files\Amazon Corretto\jdk1.8.0_212\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;D:\Program Files (x86)\QuickTime\QTSystem\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Pezhman\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\nodejs\;C:\Users\Pezhman\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Pezhman\AppData\Local\Programs\Python\Python37-32\;C:\Users\Pezhman\AppData\Local\Microsoft\WindowsApps;d:\Program Files\Docker Toolbox;d:\Users\Pezhman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-12\bin;C:\Users\Pezhman\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\Pezhman\AppData\Roaming\nvm;c:\Program Files\nodejs;C:\Users\Pezhman\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.24.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-firebase/app": "^6.2.0",
+      "@react-native-firebase/auth": "^6.2.0",
+      "expo": "~36.0.0",
+      "firebase": "^7.8.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-reanimated": "~1.4.0",
+      "react-native-screens": "^2.0.0-alpha.32",
+      "react-native-web": "~0.11.7",
+      "react-navigation": "^4.1.0",
+      "react-navigation-stack": "1.10.3"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
